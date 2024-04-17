@@ -1,0 +1,41 @@
+version: "3"
+
+services:
+    elec-5660-project-1-phase-4:
+        build:
+            dockerfile: ./docker/${IMAGE_TAG}/Dockerfile
+            x-bake:
+                contexts:
+                    home-folder-config: ./docker/build-context/home-folder-config
+                platforms:
+                    - linux/amd64 # for PC
+                    - linux/arm64 # for Raspberry Pi
+            privileged: true
+            tags:
+                - ${DOCKER_USER}/${IMAGE_NAME}:${IMAGE_TAG}
+        image: ${DOCKER_USER}/${IMAGE_NAME}:${IMAGE_TAG}
+        pull_policy: missing
+        container_name: ${CONTAINER_NAME}
+        privileged: true
+        hostname: ${HOSTNAME}
+        network_mode: host
+        ipc: host
+        pid: host
+        ulimits:
+            core: -1
+        group_add:
+            - video
+            - audio
+        environment: # -e
+            DISPLAY: ${DISPLAY}
+            QT_X11_NO_MITSHM: 1
+            XAUTHORITY: ${XAUTH}
+        volumes: # -v
+            - /var/lib/systemd/coredump/:/cores
+            - /tmp/.X11-unix/:/tmp/.X11-unix/:rw
+            - ${XAUTH}:${XAUTH}
+            - .:${CONTAINER_HOME_FOLDER}/${CODE_FOLDER}
+        working_dir: ${CONTAINER_HOME_FOLDER}/${CODE_FOLDER}
+        stdin_open: true # for -it
+        tty: true # for -it
+        # command: /bin/zsh

@@ -1,0 +1,8 @@
+---
+user: qr-code-detector
+group: qr-code-detector
+paths:
+    - /home/qr-code-detector/.oh-my-zsh
+    - /home/qr-code-detector/.zshrc
+    - /home/qr-code-detector/.bashrc
+    - /tmp
