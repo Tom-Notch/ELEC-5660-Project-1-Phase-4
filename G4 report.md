@@ -1,6 +1,6 @@
 # ELEC5660 Project 1-4 Report
 
-Jianxing SHI - 50002905, Mukai YU - 20677732 , Zhili HE - 20906664 
+Jianxing SHI - 50002905, Mukai YU - 20677732 , Zhili HE - 20906664
 
 27, Mar 2024
 
