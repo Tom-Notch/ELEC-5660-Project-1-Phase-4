@@ -16,10 +16,10 @@ In the experiments, OptiTrack System was used to track the motion and provide fe
 
 In addition to the prescribed trajectory, we also designed an alternative route that allowed the aircraft to fly according to our constructed trajectory. The results are illustrated in the following figure.
 
-![Example trajectory](img/pre-trajetory.png.png)
+![Example trajectory](https://github.com/Tom-Notch/ELEC-5660-Project-1-Phase-4/blob/master/img/pre-trajetory.png)
 
 Example trajectory
 
-![The trajectory we designed](img/diy-trajetory.png.png)
+![The trajectory we designed](https://github.com/Tom-Notch/ELEC-5660-Project-1-Phase-4/blob/master/img/diy-trajetory.png)
 
 The trajectory we designed
