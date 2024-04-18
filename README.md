@@ -45,3 +45,7 @@
    ```bash
    roslaunch [package_name] [launch_file_name]
    ```
+
+## Directory Structure
+
+Videos are under [video/](video/) folder
