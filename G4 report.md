@@ -4,11 +4,11 @@ Jianxing SHI - 50002905, Mukai YU - 20677732 , Zhili HE - 20906664
 
 27, Mar 2024
 
-# Environment Setup
+## Environment Setup
 
 We followed the instructions to set up the environment and have established a connection to the host via SSH to conduct experiments.
 
-# Experiment
+## Experiment
 
 When experimenting, we reencountered hardware problems, which took us a long time to deal with. Due to operational errors, we replaced the flight controller multiple times during the experiments, ultimately ensuring the secure linkage and control between the remote controller and the drone.
 
@@ -24,7 +24,7 @@ Example trajectory
 
 The trajectory we designed
 
-# Codes and Data
+## Codes and Data
 
 For more details please refer to our project page. Our codes, videos and flight data were released there:
 
