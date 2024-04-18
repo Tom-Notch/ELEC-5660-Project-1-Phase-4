@@ -23,3 +23,9 @@ Example trajectory
 ![The trajectory we designed](https://github.com/Tom-Notch/ELEC-5660-Project-1-Phase-4/blob/master/img/diy-trajetory.png)
 
 The trajectory we designed
+
+# Codes and Data
+
+For more details please refer to our project page. Our codes, videos and flight data were released there:
+
+[Tom-Notch/ELEC-5660-Project-1-Phase-4 (github.com)](https://github.com/Tom-Notch/ELEC-5660-Project-1-Phase-4)
