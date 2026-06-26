@@ -2,7 +2,7 @@
 #
 # Created on Wed Oct 25 2023 11:04:37
 # Author: Mukai (Tom Notch) Yu
-# Email: yumukai@huawei.com, topnotchymk@gmail.com
+# Email: yumukai@huawei.com, tomnotch.yu@gmail.com
 # Affiliation: HUAWEI Technologies Co. Ltd., Hong Kong Research Center, Design Automation Lab
 #
 # Copyright Ⓒ 2023 Mukai (Tom Notch) Yu
